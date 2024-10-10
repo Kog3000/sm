@@ -9,11 +9,37 @@
     padding-right: 10%;
 }
 
+.main{
+    padding-top: 3%;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 30px;
+    align-items: center;
+    width: 530px;
+    height: 38px;
+    top: 34px;
+
+    background: white;
+    border: 1px solid rgba(129, 112, 136, 0.5);
+}
+
+.main ul {
+    list-style: none;
+    display: inline;
+}
+
+
+
+
 .cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 
 .card_item {
     position: relative;
@@ -24,12 +50,21 @@
     width: 5rem;
   }
 
+
 .text {
     position: absolute;
     padding: 15%;
     margin: 2%;
     width: 30rem;
     height: auto;
+    align-items: center;
+}
+
+.text p {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 2%;
 }
 
 .text button {
@@ -38,5 +73,6 @@
     width: 15rem;
     height: 3rem;
     border-radius: 30px;
+    margin: auto;
     align-items: center;
 }
