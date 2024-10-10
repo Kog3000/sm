@@ -33,7 +33,10 @@
 }
 
 .text button {
+    display: flex;
+    justify-content: center;
     width: 15rem;
     height: 3rem;
     border-radius: 30px;
+    align-items: center;
 }
